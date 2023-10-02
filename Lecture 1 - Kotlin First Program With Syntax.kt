@@ -5,5 +5,3 @@ fun main(args: Array<String>) {
     print(2+2)   // print used to print normally without line
     
 }
-
-New
