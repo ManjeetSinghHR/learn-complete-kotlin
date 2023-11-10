@@ -49,7 +49,7 @@ fun main() {
    println(NUM8)   
       
    // Floating Point (Float, Double) - For Storing Numbers Only With Decimal - (+VE & -VE)
-   // A. In Float, After The Decimal Point, We Can Use only six or seven decimal digits. Also note that you should end the value of a Float type with an "F".
+   // A. In Float, After The Decimal Point, We Can Use only six or seven decimal digits. Also note that you should end the value of a Float type with an "F"
       
    var NUM9: Float = 10.123456F
    println(NUM9)   
