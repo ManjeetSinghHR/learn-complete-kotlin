@@ -12,7 +12,7 @@ fun main() {
 // *	Multiplication	Multiplies two values	x * y	
     println(x * y)
 // /	Division	Divides one value from another	x / y	
-    println(x.toFloat() / y) // toFloat() Uses to convert int to floating point.
+    println(x.toFloat() / y) // toFloat() Uses to convert int to floating point
 // %	Modulus	Returns the division remainder	x % y	
     println(x % y)
 // ++	Increment	Increases the value by 1	++x	
