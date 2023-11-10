@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     
     var x = 5
     var y = 2

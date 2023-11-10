@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
   
     // 1. Variables Are Used To Store The Data With Name
     // 2. Two Types Of Variables Are Used In Kotlin

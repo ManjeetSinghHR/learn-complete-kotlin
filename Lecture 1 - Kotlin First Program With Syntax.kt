@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     
     println("My Name Is Manjeet Singh")
     println(5+5) // println Is Used To Print In A Line
