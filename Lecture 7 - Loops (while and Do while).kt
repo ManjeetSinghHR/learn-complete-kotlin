@@ -19,5 +19,12 @@ fun main(){
         num1--
     }while (num1 <= 1) // This condition is false. But the code executes 1 time.
 
-    // Let's create a table with "do while loop"
+    // Let's create a table of 5 with "do while loop"
+    val num3 = 5
+    var index1 = 1
+    do {
+        println(num3 * index1)
+        index1++
+    }while (index1 <= 10)
+    println("Outside loop - " + index1)
 }
