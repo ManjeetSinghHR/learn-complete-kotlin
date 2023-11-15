@@ -21,8 +21,8 @@ fun main() {
     // 4. Let's reverse a Given Text "Characters" with "for loop"
     val givenText = "Manjeet Singh" // Text which you want to reverse
     var reversedText = "" // Here we store the reverse text
-    for (i in givenText.length - 1 downTo 0){ //
-        reversedText += givenText[i]
+    for (i in givenText.length - 1 downTo 0){ // Its loop the given text from last character to 1st character 1 by one
+        reversedText += givenText[i] // Here it stored the character from last to first one by one
     }
-    println("\nThis is the result - $reversedText")
+    println("\nThis is the result - $reversedText") // Print the result here
 }
