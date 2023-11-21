@@ -48,6 +48,6 @@ class Triangle1(val base: Double, val height: Double):Shape1()
     }
 
     override fun toString(): String {
-        return "Override Success"
+        return "Override success"
     }
 }
