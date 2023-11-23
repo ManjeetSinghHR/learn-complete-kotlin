@@ -15,7 +15,7 @@ class B:A()
 {
     fun test(){
         println(p)
-        // println(q)
+        // println(q) Error
         println(r)
         println(s)
     }
