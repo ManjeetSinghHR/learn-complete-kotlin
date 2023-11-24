@@ -2,8 +2,6 @@
 In this forum, we will delve into comprehensive discussions on various Kotlin programming language concepts. Our aim is to enhance our proficiency in Android development by exploring these concepts in depth.
 
 Remaining Lectures --
-Lecture 25 - Encapsulation & Visibility Modifiers.kt
-Lecture 26 - Singleton Pattern, Object Declaration & Expression.kt
 Lecture 27 - Factory Pattern, Companion Object & JVM Static.kt
 Lecture 28 - Data Class In Kotlin.kt
 Lecture 29 - Enum And Sealed Classes.kt
