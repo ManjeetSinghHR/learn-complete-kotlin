@@ -11,6 +11,7 @@ fun main() {
     }
     b.name()
     callX()
+    increaseSocialLikes()
 }
 interface X { fun name() = println("I am in X Interface") }
 object A1
@@ -33,4 +34,21 @@ open class X1(val name: String)
     open fun fullName() {
         println("Full Name - $name")
     }
+}
+fun increaseSocialLikes() {
+    SocialLikes.increaseFBLikes()
+    SocialLikes.increaseFBLikes()
+    SocialLikes.increaseInstagramLikes()
+    SocialLikes.increaseTwitterLikes()
+    SocialLikes.displayLikes()
+}
+object SocialLikes
+{
+    private var fbLikes: Int = 0
+    private var instagram: Int = 0
+    private var twitter: Int = 0
+    fun increaseFBLikes() { fbLikes++ }
+    fun increaseInstagramLikes() { instagram++ }
+    fun increaseTwitterLikes() { twitter++ }
+    fun displayLikes() { println("FB Likes - $fbLikes, Instagram Likes - $instagram, Twitter Likes - $twitter") }
 }
