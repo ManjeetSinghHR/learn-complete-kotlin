@@ -21,7 +21,6 @@ class Circle3(val radius: Double):Shape2()
     override fun area(): Double {
         return Math.PI * radius * radius
     }
-
     override fun display() {
         println("Function is getting displayed")
     }
