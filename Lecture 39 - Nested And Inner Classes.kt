@@ -1,4 +1,5 @@
 fun main() {
+    // Making a class inside a class known as "Nested" class.
     val a = Normal()
     a.a
     val b = Normal.Nested()
