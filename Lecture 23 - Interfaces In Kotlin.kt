@@ -60,16 +60,16 @@ class Players(val name: String):Draggable // Inherit with Draggable, because we 
 fun callHuman() {
     hasHand1(arrayOf(P1(), P2(), Animal()))
 }
-fun hasHand1(name: Array<hasHand>)
+fun hasHand1(name: Array<HasHand>)
 {
     for (i in name)
         i.hasHand()
 }
-interface hasHand
+interface HasHand
 {
     fun hasHand()
 }
-abstract class Human:hasHand
+abstract class Human:HasHand
 {
     abstract override fun hasHand()
 }
@@ -85,7 +85,7 @@ class P2:Human()
         println("P2 Has Hands")
     }
 }
-class Animal:hasHand
+class Animal:HasHand
 {
     override fun hasHand() {
         println("Animal Has Hands")
