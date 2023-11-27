@@ -46,7 +46,6 @@ class Triangle1(val base: Double, val height: Double):Shape1()
     override fun area(): Double {
         return 0.5 * base * height
     }
-
     override fun toString(): String {
         return "Override Success"
     }
