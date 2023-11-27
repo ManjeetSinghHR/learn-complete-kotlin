@@ -1,4 +1,6 @@
 fun main() {
+    // Parent can hold a reference to its child
+    // Parent can call methods of child classes (which are common)
     // It helps to write maintainable and extensible code
     // Helps in interacting with objects via common interface
     val circle:Circle = Circle(4.0)
@@ -10,6 +12,7 @@ fun main() {
     val square1:Shape = Square(5.0)
     val triangle1:Shape = Triangle(2.0,6.0)
     println("Area of Circle = ${circle1.area()}\nArea of Square = ${square1.area()}\nArea of Triangle = ${triangle1.area()}")
+    // <----- Calculate multiple with array ----->
     val shapes1 = arrayOf(Circle(5.0), Square(6.0), Triangle(4.0,7.0))
     calculateAreas(shapes1)
 }
