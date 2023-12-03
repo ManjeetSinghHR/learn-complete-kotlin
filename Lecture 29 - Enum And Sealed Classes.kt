@@ -35,11 +35,18 @@ then we cannot change their values, but if we want to change their value then we
  */
 fun callSealedClass() {
     val tile = Tile.Red("BB",5)
-    val tile1 = Tile.Blue("GG",8)
     println(tile.points * 5)
+    val result:Int = when(val tile1:Tile = Tile.Blue("Ball",10))
+    {
+        is Tile.Blue -> tile1.points * 5
+        else -> tile.points * 10
+    }
+    // We have to define all possible cases if we are using sealed class, otherwise it gives error
+    // This help us to write predictable code
+    println(result)
 }
-sealed class Tile
+sealed class Tile // It's a sealed class
 {
-    class Red(val type: String, val points:Int):Tile()
-    class Blue(val type: String, val points: Int):Tile()
+    class Red(val type: String, val points:Int):Tile() // These are types
+    class Blue(val type: String, val points: Int):Tile() // These are types
 }
