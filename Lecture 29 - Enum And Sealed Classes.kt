@@ -12,7 +12,7 @@ fun main() {
 // Other values don't make any sense, In such cases we use Enum class to fix the values.
 enum class DayName(val dayNUM: Int) // It's an enum class, and we can also define constructor in enum class.
 {
-    Sunday(1), // These are the values of enum class
+    Sunday(1), // These are the values of enum class.
     Monday(2),
     Tuesday(3),
     Wednesday(4),
