@@ -1,6 +1,6 @@
 # Learn-Complete-Kotlin
-<h2>In this forum, we will delve into comprehensive discussions on various Kotlin programming language concepts.
-Our aim is to enhance our proficiency in Android development by exploring these concepts in depth.</h2>
+<p>In this forum, we will delve into comprehensive discussions on various Kotlin programming language concepts.
+Our aim is to enhance our proficiency in Android development by exploring these concepts in depth.</p>
 
 <h2>Introduction to Kotlin --></h2>
 <p>--> It's a new programming language by Jet-Brains.</p>
