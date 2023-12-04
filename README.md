@@ -20,3 +20,8 @@ Our aim is to enhance our proficiency in Android development by exploring these 
 <p>--> Kotlin first version 1.0 was live in 2016.</p>
 <p>--> Google announced in 2017, that we can create android apps also in kotlin.</p>
 <p>--> In 2019, Google makes kotlin as a Primary Language for android development.</p>
+
+<h2>Features of Kotlin --></h2>
+<p>Statically Typed Language --> It means when we type any code, compiler checks the code in compile time instead of run time.\n
+It help us to prevent errors in compile time. For E.g. - If we create a variable of Integer type and wants to pass a String \n
+value, then the compiler gives error and didn't accept the value.</p>
