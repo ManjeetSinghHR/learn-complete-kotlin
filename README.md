@@ -51,10 +51,12 @@ because there is very fewer chances of errors in runtime. It gives errors in com
 <p>--> JVM - Java Virtual Machine</p>
 <p>--> JRE - Java Runtime Environment</p>
 <p>--> Important Note - In this entire course, we will be targeting JVM to learn kotlin concepts.</p>
+
 <h2>How To Install --></h2>
 <p>1. --> Search IntelliJ Idea and download community edition. Just install it after download.</p>
 <p>2. --> Download & install Java "JDK" also, and set "Environment variable" in Setting of PC. [Need to set path of JDK]</p>
 <p>That's all we need to run our kotlin code in IntelliJ Idea.</p>
+
 <h2>Run Kotlin code in VS-Code --></h2>
 <p>We can also run our kotlin code in "VS-Code". For that we need some software and environment variable setup. 
 Just follow the simple steps to run your kotlin code in "VS-Code" -</p>
