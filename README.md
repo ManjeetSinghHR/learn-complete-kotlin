@@ -22,25 +22,25 @@ Our aim is to enhance our proficiency in Android development by exploring these 
 <p>--> In 2019, Google makes kotlin as a Primary Language for android development.</p>
 
 <h2>Features of Kotlin --></h2>
-<p>Statically Typed Language --></p>
+<p>1. Statically Typed Language --></p>
 <p>It means when we type any code, compiler checks the code in compile time instead of run time. 
 It help us to prevent errors in compile time. For E.g. - If we create a variable of Integer type and wants to pass a String 
 value, then the compiler gives error and didn't accept the value.</p>
 
-<p>Object-Oriented and Functional Language --><p>
+<p>2. Object-Oriented and Functional Language --><p>
 <p>It's an object-oriented programming language which means it includes all oops concepts like objects & classes. It's also a functional 
 language means all the functions like - lambdas, higher order functions, first class function also available in Kotlin.</p>
 
-<p>100% Interoperable with Java --></p>
+<p>3. 100% Interoperable with Java --></p>
 <p>It's a main feature of kotlin. We can call java code in kotlin and kotlin code in java as well. 
 In a same project we can use both kotlin & java code.</p>
 
-<p>Concise, Safe and Powerful --></p>
+<p>4. Concise, Safe and Powerful --></p>
 <p>It's a concise language, which means lines of code are minimum as compare to another language. It's a safe and powerful language 
 because there is very fewer chances of errors in runtime. It gives errors in compile time, also protect us from 
 "Null pointer exception", "class caste exception"</p>
 
-<p>Open Source --></p>
+<p>5. Open Source --></p>
 <p>It's an open source language which means we can see what actually running behind the code. We can also contribute if we want.</p>
 
 <h2>Development Environment Setup & Install IntelliJ --></h2>
