@@ -1,68 +1,118 @@
 # Learn-Complete-Kotlin
-<p>In this forum, we will delve into comprehensive discussions on various Kotlin programming language concepts.
-Our aim is to enhance our proficiency in Android development by exploring these concepts in depth.</p>
 
-<h2>Introduction to Kotlin --></h2>
-<p>--> It's a new programming language by Jet-Brains.</p>
-<p>--> Jet-Brains developed software like - Android Studio, IntelliJ Idea, Pycharm etc.</p>
-<p>--> Kotlin is a modern replacement of java programming language.</p>
-<p>--> Java all features are available in kotlin, some features are improved and some new features are also added in Kotlin.</p>
-<p>--> Like java, kotlin also runs on JVM (Java Virtual Machine).</p>
-<p>--> We can also use kotlin where we use java, because output of both are same.</p>
-<p>--> We can create android apps as well as native apps with Kotlin.</p>
-<p>--> We can also create apps from Mac-OS and Linux with the help of Kotlin.</p>
-<p>--> We can also convert kotlin code into javascript with the help of compiler.</p>
-<p>--> We can code complete ecosystem in kotlin from frontend to backend.</p>
+<p>Welcome to this forum, where we will engage in comprehensive discussions on various concepts of the Kotlin programming language. Our goal is to deepen our proficiency in Android development by thoroughly exploring these concepts.</p>
 
-<h2>History of Kotlin --></h2>
-<p>--> In 2011, Jet-Brains announced the development of kotlin.</p>
-<p>--> In 2012, Made it open source.</p>
-<p>--> Kotlin first version 1.0 was live in 2016.</p>
-<p>--> Google announced in 2017, that we can create android apps also in kotlin.</p>
-<p>--> In 2019, Google makes kotlin as a Primary Language for android development.</p>
+## Introduction to Kotlin
 
-<h2>Features of Kotlin --></h2>
-<p>1. Statically Typed Language --></p>
-<p>It means when we type any code, compiler checks the code in compile time instead of run time. 
-It help us to prevent errors in compile time. For E.g. - If we create a variable of Integer type and wants to pass a String 
-value, then the compiler gives error and didn't accept the value.</p>
+<p>Kotlin is a modern programming language developed by JetBrains, the creators of widely used software such as Android Studio, IntelliJ IDEA, and PyCharm.</p>
 
-<p>2. Object-Oriented and Functional Language --><p>
-<p>It's an object-oriented programming language which means it includes all oops concepts like objects & classes. It's also a functional 
-language means all the functions like - lambdas, higher order functions, first class function also available in Kotlin.</p>
+<p>Here are some key points about Kotlin:</p>
+<ul>
+  <li>Kotlin is a contemporary alternative to the Java programming language.</li>
+  <li>It offers all the features of Java, with improvements and additional features for modern development.</li>
+  <li>Kotlin runs on the Java Virtual Machine (JVM), making it fully compatible with Java.</li>
+  <li>We can use Kotlin wherever Java is used, and the output will be identical.</li>
+  <li>Kotlin allows the creation of Android apps as well as native applications.</li>
+  <li>It is also compatible with macOS and Linux for application development.</li>
+  <li>Through the Kotlin compiler, it is possible to convert Kotlin code to JavaScript.</li>
+  <li>Kotlin provides a complete ecosystem that supports both front-end and back-end development.</li>
+</ul>
 
-<p>3. 100% Interoperable with Java --></p>
-<p>It's a main feature of kotlin. We can call java code in kotlin and kotlin code in java as well. 
-In a same project we can use both kotlin & java code.</p>
+## History of Kotlin
 
-<p>4. Concise, Safe and Powerful --></p>
-<p>It's a concise language, which means lines of code are minimum as compare to another language. It's a safe and powerful language 
-because there is very fewer chances of errors in runtime. It gives errors in compile time, also protect us from 
-"Null pointer exception", "class caste exception"</p>
+<p>The development of Kotlin was first announced by JetBrains in 2011, with the following key milestones:</p>
+<ul>
+  <li>2012: Kotlin was released as an open-source project.</li>
+  <li>2016: Kotlin 1.0 was officially launched.</li>
+  <li>2017: Google announced support for Kotlin in Android development.</li>
+  <li>2019: Kotlin was made the preferred language for Android development by Google.</li>
+</ul>
 
-<p>5. Open Source --></p>
-<p>It's an open source language which means we can see what actually running behind the code. We can also contribute if we want.</p>
+## Features of Kotlin
 
-<h2>Development Environment Setup & Install IntelliJ --></h2>
-<p>--> For development, we need - Java (at-least JDK 8) & IntelliJ Idea (Community Edition)</p>
-<p>--> Why Java (JDK) - because kotlin is a JVM Language, so we need JDK.</p>
-<p>--> JDK includes some libraries which help us to run kotlin code.</p>
-<p>--> JDK - Java Development Kit</p>
-<p>--> JVM - Java Virtual Machine</p>
-<p>--> JRE - Java Runtime Environment</p>
-<p>--> Important Note - In this entire course, we will be targeting JVM to learn kotlin concepts.</p>
+<p>Kotlin offers several powerful features that make it a great choice for developers:</p>
 
-<h2>How To Install --></h2>
-<p>1. --> Search IntelliJ Idea and download community edition. Just install it after download.</p>
-<p>2. --> Download & install Java "JDK" also, and set "Environment variable" in Setting of PC. [Need to set path of JDK]</p>
-<p>That's all we need to run our kotlin code in IntelliJ Idea.</p>
+### 1. Statically Typed Language
 
-<h2>Run Kotlin code in VS-Code --></h2>
-<p>We can also run our kotlin code in "VS-Code". For that we need some software and environment variable setup. 
-Just follow the simple steps to run your kotlin code in "VS-Code" -</p>
-<p>1. --> Search VS-Code, Download it & install.</p>
-<p>2. --> Install 3 extensions in "VS-Code" - (a) - Kotlin, (b) - Kotlin Language, (c) - Code Runner</p>
-<p>3. --> Search On Google - "Kotlin Command Line Compiler", Download it and extract the downloaded zip file.</p>
-<p>4. --> After Extraction - copy the path "URL" and set its "Environment Variable"</p>
-<p>5. --> To check success installation - open "CMD" and type "kotlin" and Press enter.</p>
-<p>That's all we need to run Kotlin code in "VS-Code"</p>
+<p>Kotlin is a statically typed language, meaning the compiler checks code at compile time rather than runtime. This helps prevent errors early. For example, if you try to assign a string value to an integer variable, the compiler will throw an error and prevent the code from running.</p>
+
+### 2. Object-Oriented and Functional Programming
+
+<p>Kotlin is both object-oriented and functional, meaning it supports OOP concepts like classes and objects, as well as functional programming features such as lambdas, higher-order functions, and first-class functions.</p>
+
+### 3. 100% Interoperable with Java
+
+<p>Kotlin is fully interoperable with Java. You can seamlessly integrate Kotlin and Java code in the same project. Kotlin allows you to call Java code in Kotlin and vice versa.</p>
+
+### 4. Concise, Safe, and Powerful
+
+<p>Kotlin’s syntax is concise, reducing the amount of code you need to write compared to other languages. It is also safe, with fewer runtime errors, as it catches most errors at compile time. Additionally, Kotlin helps avoid common issues like Null Pointer Exceptions and Class Cast Exceptions.</p>
+
+### 5. Open Source
+
+<p>Kotlin is an open-source language, which means you can explore the source code and even contribute to its development if you wish.</p>
+
+## Setting Up Development Environment & Installing IntelliJ
+
+<p>To start developing with Kotlin, you'll need to install Java (at least JDK 8) and IntelliJ IDEA (Community Edition).</p>
+
+<p>Here’s why you need Java:</p>
+<ul>
+  <li>Kotlin runs on the Java Virtual Machine (JVM), so Java Development Kit (JDK) is required.</li>
+  <li>The JDK includes libraries that help run Kotlin code.</li>
+</ul>
+
+<p>Key Java components:</p>
+<ul>
+  <li><strong>JDK</strong> - Java Development Kit</li>
+  <li><strong>JVM</strong> - Java Virtual Machine</li>
+  <li><strong>JRE</strong> - Java Runtime Environment</li>
+</ul>
+
+<p><strong>Important Note:</strong> Throughout this guide, we will focus on JVM-based development to learn Kotlin concepts.</p>
+
+## How to Install Kotlin & IntelliJ IDEA
+
+<p>Follow these steps to set up your development environment:</p>
+
+<ol>
+  <li>Search for "IntelliJ IDEA" and download the Community Edition. Install it after downloading.</li>
+  <li>Download and install Java (JDK), then configure the environment variables in your system settings to include the JDK path.</li>
+  <li>Once installed, you can begin writing Kotlin code in IntelliJ IDEA.</li>
+</ol>
+
+## Running Kotlin Code in VS Code
+
+<p>If you prefer using VS Code, you can set it up to run Kotlin code by following these steps:</p>
+
+<ol>
+  <li>Search for and download Visual Studio Code (VS Code), then install it.</li>
+  <li>Install the following extensions in VS Code:
+    <ul>
+      <li><strong>Kotlin</strong></li>
+      <li><strong>Kotlin Language</strong></li>
+      <li><strong>Code Runner</strong></li>
+    </ul>
+  </li>
+  <li>Search for "Kotlin Command Line Compiler" on Google, download it, and extract the ZIP file.</li>
+  <li>Copy the extracted path (URL) and set it as an environment variable on your system.</li>
+  <li>To check if the installation was successful, open Command Prompt (CMD) and type <code>kotlin</code>, then press Enter.</li>
+</ol>
+
+<p>Now you are ready to run Kotlin code in Visual Studio Code!</p>
+
+---
+
+## License
+
+This project is licensed under the **MIT License**
+
+## Author
+
+This repository was created and is maintained by **Manjeet Singh**. Feel free to connect or reach out for any queries or contributions!
+
+## Acknowledgements
+
+* Kotlin and JetBrains for creating such an amazing language.
+* Google for supporting Kotlin in Android development.
+* Open-source community for continually improving and maintaining Kotlin.
